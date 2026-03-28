@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './components/layout/Navbar';
 import CustomCursor from './components/ui/CustomCursor';
-import Hero from './components/sections/Hero';
+import SkillsHero from './components/sections/SkillsHero';
 import About from './components/sections/About';
 import Skills from './components/sections/Skills';
 import Experience from './components/sections/Experience';
@@ -17,7 +17,7 @@ function App() {
       <Navbar />
       
       <main>
-        <Hero />
+        <SkillsHero height={600} />
         <About />
         <Skills />
         <Experience />

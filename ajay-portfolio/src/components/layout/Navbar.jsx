@@ -39,7 +39,7 @@ export default function Navbar() {
             <a 
               key={item.name} 
               href={item.href}
-              className="text-sm font-medium text-gray-300 hover:text-cyan-400 transition-colors"
+              className="text-sm font-medium text-white hover:text-cyan-400 transition-colors"
             >
               {item.name}
             </a>
@@ -64,7 +64,7 @@ export default function Navbar() {
               key={item.name} 
               href={item.href}
               onClick={() => setIsOpen(false)}
-              className="text-lg font-medium text-gray-300 hover:text-cyan-400"
+              className="text-lg font-medium text-white hover:text-cyan-400"
             >
               {item.name}
             </a>
