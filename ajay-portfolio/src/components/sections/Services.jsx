@@ -1,22 +1,22 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { LayoutDashboard, ShieldCheck, Rocket } from 'lucide-react';
+import { Layers, Globe, Bot } from 'lucide-react';
 
 const services = [
   {
-    title: "Odoo ERP Development",
-    desc: "Customizing, implementing, and maintaining scalable Odoo ecosystem solutions tailored to specific business requirements and workflows.",
-    icon: <LayoutDashboard className="w-10 h-10 text-cyan-400" />
+    title: "Odoo ERP Solutions",
+    desc: "From requirements gathering to go-live — I design, build, and deploy custom Odoo modules tailored to your business. Whether it's a fresh implementation, version migration, or complex workflow automation, I handle the full cycle including training and post-launch support.",
+    icon: <Layers className="w-10 h-10 text-cyan-400" />
   },
   {
-    title: "Backend Engineering",
-    desc: "Building rock-solid APIs and backend data structures using Python, Django, and PostgreSQL ensuring top-tier architecture performance.",
-    icon: <ShieldCheck className="w-10 h-10 text-cyan-400" />
+    title: "Software & Web Development",
+    desc: "I build premium websites and complete software solutions that don't just look good — they generate real results. Businesses and personal brands get eye-catching, high-converting websites that attract clients and boost income, paired with powerful backend systems capable of running entire business operations from a single platform.",
+    icon: <Globe className="w-10 h-10 text-cyan-400" />
   },
   {
-    title: "Tech Consulting",
-    desc: "Providing technical analysis, system audits, and architectural blueprints to accelerate product design and overall process automation.",
-    icon: <Rocket className="w-10 h-10 text-cyan-400" />
+    title: "AI & Automation",
+    desc: "I design intelligent systems that work for your business around the clock. From AI-powered workflow automation and multi-agent research pipelines to smart digital marketing engines and agentic decision systems — I turn complex operations into streamlined, self-running processes.",
+    icon: <Bot className="w-10 h-10 text-cyan-400" />
   }
 ];
 
