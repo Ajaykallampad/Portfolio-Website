@@ -7,7 +7,7 @@ import Skills from './components/sections/Skills';
 import Experience from './components/sections/Experience';
 import Projects from './components/sections/Projects';
 import Services from './components/sections/Services';
-import AIShowcase from './components/sections/AIShowcase';
+
 import Contact from './components/sections/Contact';
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
         <Experience />
         <Projects />
         <Services />
-        <AIShowcase />
+
         <Contact />
       </main>
     </div>

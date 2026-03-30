@@ -373,7 +373,7 @@ export default function SkillsHero() {
           }}
         >
           <a
-            href="#projects"
+            href="#services"
             style={{
               background: 'linear-gradient(135deg, #14b8a6, #0ea5e9)',
               color: '#ffffff',
@@ -398,7 +398,7 @@ export default function SkillsHero() {
               e.currentTarget.style.boxShadow = '0 0 28px rgba(20,184,166,0.45)';
             }}
           >
-            Explore My Work
+            What I Do
           </a>
 
           <a
